@@ -1,0 +1,50 @@
+
+  .person {
+    font-family: raleway;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .person img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .person h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .person p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .person .social-media {
+    margin-top: 20px;
+  }
+  
+  .person .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .person .social-media a:hover {
+    color: #00c4ff;
+  }
