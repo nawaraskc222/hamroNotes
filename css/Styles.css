@@ -3,13 +3,15 @@
     transition: all 0.3s ease-in-out;
     margin: 0px;
     padding: 0px;
+    font-family: Railway;
+  
    
 }
 .welcome{
     background-color: rgb(162, 97, 223);
     text-align: center;
     font-size: 30px;
-    font-family: raleway;
+   
 }
 .container {
     clear: both;
@@ -40,10 +42,13 @@ ul li {
     display: inline-block;
     padding: 10px;
     font-size: 20px;
-    font-family: raleway;
+   
 }
 
+a{
+    text-decoration: none;
+}
 a:hover {
     color: orange;
-    text-decoration: none;
+    
 }
